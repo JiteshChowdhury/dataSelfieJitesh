@@ -1,0 +1,46 @@
+/* dock2 - bottom */
+.dock {
+	position: relative;
+	height: 55px;
+	text-align: center;
+	animation: fadein 6s;
+}
+
+img {
+	border: none;
+}
+
+#dock2 {
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+  	z-index: 1500;
+	left: 0px;
+}
+.dock-container2 {
+	position: absolute;
+	height: 60px;
+    bottom: 0;
+	background: url(images/dock-bg.gif);
+	padding-left: 20px;
+	z-index: 1500;
+}
+a.dock-item2 {
+	display: block;
+	font: bold 16px Arial, Helvetica, sans-serif;
+	width: 60px;
+	color: #BBB;
+	bottom: 0;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+}
+.dock-item2 span {
+	display: none;
+	padding-left: 20px;
+}
+.dock-item2 img {
+	border: none;
+	margin: 5px 10px 0px;
+	width: 100%;
+}

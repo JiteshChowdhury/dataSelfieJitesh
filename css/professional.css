@@ -1,0 +1,28 @@
+span {
+  line-height: 9px;
+}
+
+.window2 {
+  /* background: #343233 75%; */
+  background: #000000;
+	color: #BBB;
+  position: absolute;
+  z-index: 1000;
+  width: 36%;
+  height: 51%;
+  bottom: 0;
+  top: 5%;
+  right: 1%;
+  border-radius: 8px;
+  animation: fadein 6s;
+  opacity: 0.8;
+}
+
+.content2 {
+  padding: 10px;
+  top: 6px;
+  position: relative;
+  z-index: 1500;
+  background: #000000;
+  opacity: 1;
+}
